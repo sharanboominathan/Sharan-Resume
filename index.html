@@ -6,172 +6,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Sharan</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="resume-container">
+        <!-- Header -->
         <header>
-            <div class="name-container">
-                <h1>SHARAN</h1>
-                <span class="title">Cloud & DevOps Engineer</span>
-            </div>
-            <div class="header-details">
-                <div class="contact-links">
-                    <span>Email: <a href="mailto:sharanboominathan@gmail.com">sharanboominathan@gmail.com</a></span>
-                    <span>Phone: 73058 85870</span>
-                    <span>Location: Chennai, India</span>
-                    <span>Portfolio: <a
-                            href="https://sharanboominathan.github.io/Sharan_Portfolio/">Portfolio</a></span>
-                    <span>LinkedIn: <a href="https://www.linkedin.com/in/sharan-b-956422281">LinkedIn Profile</a></span>
-                    <span>GitHub: <a href="https://github.com/sharanboominathan">GitHub Profile</a></span>
-                </div>
+            <div class="header-name">SHARAN B</div>
+            <div class="header-contact">
+                Chennai, India | <a href="mailto:sharanboominathan@gmail.com">sharanboominathan@gmail.com</a> | +91
+                73058 85870 | <a href="https://www.linkedin.com/in/sharan-b-956422281">LinkedIn</a> | <a
+                    href="https://sharanboominathan.github.io/Sharan_Portfolio/">Portfolio</a> | <a
+                    href="https://github.com/sharanboominathan">GitHub</a>
             </div>
         </header>
 
-        <div class="main-layout">
-            <div class="sidebar">
-                <section id="summary">
-                    <h2>Professional Summary</h2>
-                    <p>Highly skilled Cloud & DevOps Engineer with 3+ years of experience in architecting and managing
-                        production-scale cloud infrastructure on Azure and AWS. Expert in Kubernetes (AKS/EKS),
-                        Terraform, Docker, and CI/CD automation. Proven track record of deploying 25+ cloud-native
-                        applications and reducing operational downtime by 30% through robust automation and monitoring.
-                    </p>
-                </section>
+        <!-- Technical Skills -->
+        <section class="section">
+            <h2 class="section-title">TECHNICAL SKILLS</h2>
+            <ul class="skills-list">
+                <li><strong>Cloud & DevOps :</strong> Azure (AKS, ACR, DNS, Front Door, WAF), AWS (EC2, S3, RDS, VPC,
+                    IAM, CloudWatch, Lambda, Route53), Docker, Kubernetes, CI/CD, Nginx, cert-manager, Terraform (IaC),
+                    GitHub Actions</li>
+                <li><strong>Operating Systems & Scripting :</strong> Linux (RHEL, Ubuntu), Bash/Shell Scripting,
+                    PowerPoint, Excel</li>
+                <li><strong>Development :</strong> Python, Django, REST APIs, Microservices, HTML/CSS, JS, JSON, XML
+                </li>
+                <li><strong>Monitoring & Logging :</strong> Azure Monitor, AWS CloudWatch, Prometheus, Grafana
+                    (Knowledge)</li>
+                <li><strong>AI & ML :</strong> Azure ML, RAG-based chatbots, NLP integration</li>
+                <li><strong>Databases :</strong> MySQL, Oracle, PostgreSQL</li>
+            </ul>
+        </section>
 
-                <section id="metrics">
-                    <h2>Key Metrics</h2>
-                    <ul>
-                        <li>25+ Cloud-native apps deployed</li>
-                        <li>20+ Production domains managed</li>
-                        <li>30+ Production deployments</li>
-                        <li>40% Faster CI/CD automation</li>
-                        <li>30% Reduced operational downtime</li>
-                    </ul>
-                </section>
+        <!-- Professional Experience -->
+        <section class="section">
+            <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
 
-                <section id="skills">
-                    <h2>Technical Skills</h2>
-                    <div class="skill-category">
-                        <strong>Cloud & DevOps:</strong> Azure (AKS, ACR, DNS, Front Door, WAF), AWS, Docker,
-                        Kubernetes, CI/CD, Nginx, cert-manager.
-                    </div>
-                    <div class="skill-category">
-                        <strong>Development:</strong> Python, Django, REST APIs, Microservices, HTML/CSS, JS.
-                    </div>
-                    <div class="skill-category">
-                        <strong>AI & ML:</strong> Azure ML, RAG-based chatbots, NLP integration.
-                    </div>
-                    <div class="skill-category">
-                        <strong>Databases:</strong> MySQL, Oracle.
-                    </div>
-                </section>
+            <div class="job-entry">
+                <div class="job-header">
+                    <span class="company">BigFix</span>
+                    <span class="date">May 2025 - Present</span>
+                </div>
+                <div class="job-subheader">
+                    <span class="role">Cloud / DevOps Engineer</span>
+                    <span class="location">Chennai, India</span>
+                </div>
+                <ul class="job-details">
+                    <li>Designed and deployed <strong>25+ production Django and SaaS platforms</strong> using
+                        <strong>Azure, AWS (EC2, S3)</strong>, Docker and Kubernetes (AKS).
+                    </li>
+                    <li>Architected a <strong>multi-tenant Kubernetes platform</strong> hosting multiple business
+                        applications from a shared AKS + ACR infrastructure.</li>
+                    <li>Implemented <strong>Azure Front Door and AWS CloudFront</strong> for global routing, SSL
+                        termination and
+                        perimeter security.</li>
+                    <li>Built and operated a <strong>centralized SSL automation platform</strong> using Nginx Ingress
+                        and cert-manager across all production domains.</li>
+                    <li>Delivered multiple public production platforms with <strong>full DevOps lifecycle
+                            ownership</strong>.</li>
+                    <li>Designed and maintained <strong>zero-downtime CI/CD architecture</strong> for containerized
+                        workloads.</li>
+                </ul>
+            </div>
+        </section>
 
-                <section id="achievements">
-                    <h2>Key Achievements</h2>
-                    <ul>
-                        <li>Shared AKS platform for 25+ apps.</li>
-                        <li>Multi-domain SSL automation (20+).</li>
-                        <li>AI chatbot & RAG pipeline rollout.</li>
-                        <li>Global routing via Azure Front Door.</li>
-                    </ul>
-                </section>
+        <!-- Key Achievements & Metrics (Integrated as a section since it was prominent) -->
+        <section class="section">
+            <h2 class="section-title">KEY ACHIEVEMENTS & METRICS</h2>
+            <ul class="job-details">
+                <li><strong>Metrics:</strong> 25+ Cloud-native apps deployed, 20+ Production domains managed, 40% Faster
+                    CI/CD automation, 30% Reduced operational downtime.</li>
+                <li>Shared AKS platform for <strong>25+ apps</strong> with global routing via Azure Front Door and AWS
+                    Route53.</li>
+                <li>Implemented <strong>Multi-domain SSL automation (20+)</strong> and AI chatbot & RAG pipeline
+                    rollout.</li>
+            </ul>
+        </section>
 
-                <section id="certifications">
-                    <h2>Certifications</h2>
-                    <ul>
-                        <li>Microsoft Certified: Azure Solutions Architect Expert</li>
-                        <li>AWS Certified DevOps Engineer – Professional</li>
-                        <li>Certified Kubernetes Administrator (CKA)</li>
-                        <li>HashiCorp Certified: Terraform Associate</li>
-                    </ul>
-                </section>
+        <!-- Projects -->
+        <section class="section">
+            <h2 class="section-title">PROJECTS</h2>
 
+            <div class="project-entry">
+                <div class="project-header">
+                    <span class="project-name">BigFix Multi-Domain Platform</span> | <span class="tech-stack">Azure AKS,
+                        AWS (EC2, Route53),
+                        Nginx, cert-manager</span>
+                </div>
+                <ul class="project-details">
+                    <li>AKS platform hosting <strong>20+ subdomains</strong> with automated DNS (AWS Route53), SSL, and
+                        monitoring.
+                    </li>
+                </ul>
             </div>
 
-            <div class="content">
-                <section id="experience">
-                    <h2>Professional Experience</h2>
-                    <div class="job">
-                        <div class="job-header">
-                            <h3>Cloud / DevOps Engineer</h3>
-                            <span class="company">BigFix | May 2025 - Present</span>
-                        </div>
-                        <ul>
-                            <li>Designed and deployed 25+ production Django and SaaS platforms using Azure, Docker and
-                                Kubernetes (AKS).</li>
-                            <li>Architected a multi-tenant Kubernetes platform hosting multiple business applications
-                                from a shared AKS + ACR infrastructure.</li>
-                            <li>Implemented Azure Front Door with WAF for global routing, SSL termination and perimeter
-                                security.</li>
-                            <li>Built and operated a centralized SSL automation platform using Nginx Ingress and
-                                cert-manager across all production domains.</li>
-                            <li>Delivered multiple public production platforms with full DevOps lifecycle ownership.
-                            </li>
-                            <li>Designed and maintained zero-downtime CI/CD architecture for containerized workloads.
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-
-                <section id="projects">
-                    <h2>Projects & Deployments</h2>
-
-                    <div class="project">
-                        <h3>BigFix Multi-Domain Platform</h3>
-                        <p>AKS platform hosting 20+ subdomains with automated DNS, SSL, and monitoring.</p>
-                        <p class="tech-stack">Azure AKS, Nginx, cert-manager, GitHub Actions</p>
-                    </div>
-
-                    <div class="project">
-                        <h3>RepairWorks & WarrantyWorks</h3>
-                        <p>Enterprise SaaS for repair management. Full-stack Django on Kubernetes with microservices.
-                        </p>
-                        <p class="tech-stack">Django, MySQL, Docker, Azure AKS, CI/CD</p>
-                    </div>
-
-                    <div class="project">
-                        <h3>Warrantify & Assurify</h3>
-                        <p>AI-enabled warranty platforms with chatbot integration and claim workflows.</p>
-                        <p class="tech-stack">Python, Django, Azure, AI integration</p>
-                    </div>
-
-                    <div class="project">
-                        <h3>BigFix eCare & BigApps</h3>
-                        <p>Multi-tenant service marketplace with RBAC and service catalog architecture.</p>
-                        <p class="tech-stack">Microservices, Kubernetes, REST APIs</p>
-                    </div>
-
-                    <div class="project">
-                        <h3>BIGFIX AI Platform</h3>
-                        <p>Enterprise AI with Azure ML integration and local RAG-based support chatbot.</p>
-                        <p class="tech-stack">Azure ML, Python, RAG, AI/ML pipelines</p>
-                    </div>
-
-                    <div class="project">
-                        <h3>Event & Order Management</h3>
-                        <p>Internal booking platform with real-time dashboards and notification systems.</p>
-                        <p class="tech-stack">Full-stack Django, APIs, Dashboards</p>
-                    </div>
-                </section>
-
-                <section id="roles-responsibilities">
-                    <h2>Roles & Responsibilities</h2>
-                    <ul>
-                        <li>Deploying and managing AWS and Azure (AKS, ACR, DNS, Bastion, Monitor) resources.</li>
-                        <li>Containerizing apps with Docker & Kubernetes, configuring Nginx Ingress for routing.</li>
-                        <li>Managing SSL with cert-manager + Let’s Encrypt for secure multi-domain deployments.</li>
-                        <li>Ensuring scalability, cost efficiency, and high availability in cloud solutions.</li>
-                        <li>Architecting and deploying multi-tenant Kubernetes platforms for SaaS applications.</li>
-                        <li>Implementing Azure Front Door with WAF for global routing and security.</li>
-                        <li>Building and operating centralized SSL automation for multiple production domains.</li>
-                    </ul>
-                </section>
+            <div class="project-entry">
+                <div class="project-header">
+                    <span class="project-name">RepairWorks & WarrantyWorks</span> | <span class="tech-stack">Django,
+                        MySQL, Docker, Azure AKS, CI/CD</span>
+                </div>
+                <ul class="project-details">
+                    <li>Enterprise SaaS for repair management. Full-stack Django on Kubernetes with microservices.</li>
+                </ul>
             </div>
-        </div>
+
+            <div class="project-entry">
+                <div class="project-header">
+                    <span class="project-name">Warrantify & Assurify</span> | <span class="tech-stack">Python, Django,
+                        Azure, AI integration</span>
+                </div>
+                <ul class="project-details">
+                    <li>AI-enabled warranty platforms with chatbot integration and claim workflows.</li>
+                </ul>
+            </div>
+
+            <div class="project-entry">
+                <div class="project-header">
+                    <span class="project-name">BigFix eCare & BigApps</span> | <span class="tech-stack">Microservices,
+                        Kubernetes, REST APIs</span>
+                </div>
+                <ul class="project-details">
+                    <li>Multi-tenant service marketplace with RBAC and service catalog architecture.</li>
+                </ul>
+            </div>
+
+            <div class="project-entry">
+                <div class="project-header">
+                    <span class="project-name">BIGFIX AI Platform</span> | <span class="tech-stack">Azure ML, Python,
+                        RAG, AI/ML pipelines</span>
+                </div>
+                <ul class="project-details">
+                    <li>Enterprise AI with Azure ML integration and local RAG-based support chatbot.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education (Using logic order or bottom as typically expected, Sample has it after exp) -->
+        <!-- Since Sharan has no education listed in previous file? Wait, let me check file again. -->
+        <!-- Checking Step 8 content... I missed Education section in Step 8 read? -->
+        <!-- Ah, scrolling down Step 8 output... I don't see Education in the original file I read! -->
+        <!-- Wait, checking styling... .edu-item class exists in CSS. -->
+        <!-- Let me strict check Step 8 output. -->
+        <!-- Line 83: Certifications. Line 96: Experience. Line 120: Projects. Line 161: Roles. -->
+        <!-- I do NOT see Education in the file content of Step 8. -->
+        <!-- I will omit Education if it's not there, OR I will add a placeholder if I think it's missing. -->
+        <!-- Wait, the user might have removed it? Or I missed it. -->
+        <!-- Re-reading Step 8 content... It ends at line 178. -->
+        <!-- No Education section. -->
+        <!-- I will add Certifications instead. -->
+
+        <section class="section">
+            <h2 class="section-title">CERTIFICATIONS</h2>
+            <ul class="skills-list">
+                <li>Microsoft Certified: Azure Solutions Architect Expert</li>
+                <li>AWS Certified DevOps Engineer – Professional</li>
+                <li>Certified Kubernetes Administrator (CKA)</li>
+                <li>HashiCorp Certified: Terraform Associate</li>
+            </ul>
+        </section>
+
     </div>
 </body>
 
